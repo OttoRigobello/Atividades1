@@ -2,17 +2,18 @@
         public class Exercicio25 {
         public static void main(String[] args) {
         Scanner Change = new Scanner(System.in);
-        System.out.println("Quer ver algo maneiro?\nDigite 2 numeros abaixo e veja o que acontece!! (ɔ◔‿◔)ɔ \n");
-        int A, B, aux;
-        System.out.print("A: ");
+        System.out.println("Digite 2 numeros abaixo com seus antigos valores");
+        int A, B, C;
+        System.out.print("Primeiro Número: ");
         A = Change.nextInt();
-        System.out.print("B: ");
+        System.out.print("Segundo Número: ");
         B = Change.nextInt();
-        aux = A;
+        C = A;
         A = B;
-        B = aux;
-        System.out.println("\nA: "+A);
-        System.out.println("B: "+B);
-        System.out.println("Maneiro né? (>‿◠)✌");
+        B = C;
+        System.out.println("Novo resultado de A:  "+A);
+        System.out.println("Novo resultado de B: "+B);
+
+
         }
         }
