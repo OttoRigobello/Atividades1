@@ -1,2 +1,2 @@
 # Atividades1
-Resolvidos por Otto Rigobello e Djenifer Almeida
+De Djenifer Almeida e Otto Rigobello
